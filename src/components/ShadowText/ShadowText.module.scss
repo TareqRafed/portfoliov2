@@ -1,0 +1,15 @@
+.effect:hover {
+  -webkit-text-stroke: 1px #d6f4f4;
+  font-variation-settings: 'wght' 900, 'ital' 0;
+  text-align: center;
+  color: transparent;
+  text-shadow: 5px 5px 0px #262261, 8px 8px 0px #652d90;
+
+  cursor: pointer;
+}
+
+.effect {
+  font-variation-settings: 'wght' 100, 'ital' 0;
+  text-shadow: none;
+  transition: all 0.5s;
+}
