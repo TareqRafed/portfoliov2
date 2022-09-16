@@ -10,13 +10,13 @@ interface props {
 
 const Layout = ({ children }: props) => {
   return (
-    <>
+    <div>
       <Body>
         <Header />
         {children}
       </Body>
       <Footer />
-    </>
+    </div>
   );
 };
 
