@@ -19,7 +19,7 @@ const mockup = [
   {
     name: 'MoGallery',
     urlName: 'Live',
-    url: 'https://mogalleryjo.com',
+    url: 'http://mogalleryjo.com',
     role: 'Development',
     description:
       'Modern Webapp Where users can reserve photo sessions, Created with ReactJS, Django and MySQL',
