@@ -27,7 +27,7 @@ const mockup = [
   {
     name: 'LUV',
     urlName: 'Repo',
-    url: 'https://mogalleryjo.com',
+    url: 'https://github.com/TareqRafed/luv',
     role: 'Development',
     description: 'Version Control, similar to git',
   },
@@ -59,7 +59,10 @@ const Projects = () => {
             <p>{pro.description}</p>
           </div>
           <p>
-            Links: <a href={pro.url}>{pro.urlName}</a>
+            Links:{' '}
+            <a href={pro.url} rel="noreferrer" target="_blank">
+              {pro.urlName}
+            </a>
           </p>
         </div>
       ))}
